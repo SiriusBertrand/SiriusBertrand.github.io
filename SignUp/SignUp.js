@@ -79,5 +79,5 @@ signupForm.addEventListener("submit", function (e) {
   console.log("Plan:", plan);
 
   // Redirect to confirmation page
-  window.location.href = "Confirmation/index.html";
+  window.location.href = "/Confirmation/index.html";
 });
