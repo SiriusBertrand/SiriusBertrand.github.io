@@ -1,0 +1,93 @@
+body {
+    background-image: url("/SignUp/default.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .heading {
+    margin-bottom: 20px;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-option {
+    flex-basis: calc(33.33% - 40px);
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .price {
+    margin-bottom: 10px;
+  }
+  
+  .signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3b0441e7;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  form:invalid {
+    display: block;
+  }
+  

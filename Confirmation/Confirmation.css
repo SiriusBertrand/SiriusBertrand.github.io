@@ -1,0 +1,41 @@
+body {
+    background-image: url("/default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .icon-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .confirmation-box {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    font-size: 18px;
+  }
+  

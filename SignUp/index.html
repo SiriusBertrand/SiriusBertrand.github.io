@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" type="text/css" href="/SignUp/SignUp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Create an Account</h1>
+      <div class="signup-form">
+        <form id="signup-form">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+            <p id="username-error" class="error-message"></p>
+            <!-- Error message for username -->
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+            <p id="password-error" class="error-message"></p>
+            <!-- Error message for password -->
+          </div>
+          <div class="form-group">
+            <label for="secret-question">Secret Question:</label>
+            <select id="secret-question" name="secret-question">
+              <option value="">Select a secret question</option>
+              <option value="1">What is your mother's maiden name?</option>
+              <option value="2">What city were you born in?</option>
+              <option value="3">What is your favorite book?</option>
+              <option value="4">What was the name of your first pet?</option>
+              <option value="5">What is your favorite movie?</option>
+            </select>
+            <p id="secret-question-error" class="error-message"></p>
+            <!-- Error message for secret question -->
+          </div>
+          <div class="form-group">
+            <label for="secret-answer">Secret Answer:</label>
+            <input
+              type="text"
+              id="secret-answer"
+              name="secret-answer"
+              required
+            />
+            <p id="secret-answer-error" class="error-message"></p>
+            <!-- Error message for secret answer -->
+          </div>
+
+          <div class="form-group">
+            <label for="plan">Select a Plan:</label>
+            <select id="plan" name="plan" required>
+              <option value="" disabled selected>Select a plan</option>
+              <option value="basic-monthly">Basic - $2.99/month</option>
+              <option value="professional-monthly">
+                Professional - $9.99/month
+              </option>
+              <option value="advanced-monthly">Advanced - $5.99/month</option>
+              <option value="basic-yearly">Basic - $28.70/year</option>
+              <option value="professional-yearly">
+                Professional - $95.90/year
+              </option>
+              <option value="advanced-yearly">Advanced - $57.50/year</option>
+            </select>
+            <p id="plan-error" class="error-message"></p>
+            <!-- Error message for plan -->
+          </div>
+          <button type="submit" id="submit-btn">Sign Up</button>
+          <p id="error-message" class="error-message"></p>
+        </form>
+      </div>
+    </div>
+
+    <script src="/SignUp/SignUp.js"></script>
+  </body>
+</html>
